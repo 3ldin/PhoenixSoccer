@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,3 +26,25 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body, html {
+  overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 2560px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+
+@import "./custom-slick.css";

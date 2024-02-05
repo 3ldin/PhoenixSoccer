@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from 'react'
 import Link from 'next/link'
-import NavLink from './navlink'
+import NavLink from './NavLink'
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import { CgMenu } from "react-icons/cg";
-import MenuOverlay from './menuoverlay';
+import MenuOverlay from './MenuOverlay';
 import Image from 'next/image';
 
 

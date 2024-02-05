@@ -1,12 +1,11 @@
-import Image from 'next/image'
-import Navbar from '@/components/navbar'
-import Hero from '@/components/Hero'
-import About from '@/components/About'
-import Footer from '@/components/Footer'
-import Location from '@/components/Location'
-import Testimonials from '@/components/Testimonials'
-import testimonialsData from '@/components/testimonialsData'
-import Gallery from '@/components/Gallery'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import About from '../components/About'
+import Footer from '../components/Footer'
+import Location from '../components/Location'
+import Testimonials from '../components/Testimonials'
+import testimonialsData from '../components/testimonialsData'
+import Gallery from '../components/Gallery'
 
 
 

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '@/components/navbar';
 import Footer from '../components/Footer';
 import emailjs from '@emailjs/browser';
 

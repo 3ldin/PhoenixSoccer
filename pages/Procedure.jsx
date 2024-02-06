@@ -60,7 +60,7 @@ const Procedure = () => {
 
         <h2 className='text-3xl font-bold my-4'>Location</h2>
         <img 
-        src='/images/location.png'
+        src='/images/location.PNG'
         className='mx-auto'
         />
 

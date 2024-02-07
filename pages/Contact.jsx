@@ -21,15 +21,15 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className='bg-gray-950'>
+    <div className='bg-sky-600'>
       <Navbar />
 
       <div className="container mx-auto flex flex-col items-center text-center pt-4 mt-28">
 
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-6 drop-shadow-xl">Contact Us</h1>
-        <div className="container mx-auto text-center mt-10 pb-4 bg-gray-950">
+        <h1 className="text-6xl  font-bold text-white mt-6 drop-shadow-xl">Contact Us</h1>
+        <div className="container mx-auto text-center mt-10 pb-4 bg-skt-600">
 
-          <h2 className="text-3xl mb-8 pt-4">Phoenix Soccer Club</h2>
+          <h2 className="text-3xl mb-8 pt-4 text-yellow-500 font-bold">Phoenix Soccer Club</h2>
           <p>NYC Area - Brooklyn</p>
           <p>Email: info@phoenixsoccer.club </p>
           <p>Phone: (347) 722-4353</p>
@@ -40,12 +40,12 @@ export const ContactUs = () => {
           <form ref={form} onSubmit={sendEmail} className="flex flex-col">
             <div className="mb-16 text-white block text-sm font-medium">
               <label className="mb-6">Name</label>
-              <input type="text" name="user_name" className="bg-[#18191E] border border-[#33353F] text-gray-100 text-sm rounded-lg block my-2 w-full p-2.5" required />
+              <input type="text" name="user_name" className="bg-[#ffffff] border border-[#33353F] text-gray-100 text-sm rounded-lg block my-2 w-full p-2.5" required />
               <label>Email</label>
-              <input type="email" name="user_email" className="bg-[#18191E] border border-[#33353F] text-gray-100 text-sm rounded-lg my-2 block w-full p-2.5" required />
+              <input type="email" name="user_email" className="bg-[#ffffff] border border-[#33353F] text-gray-100 text-sm rounded-lg my-2 block w-full p-2.5" required />
               <label>Message</label>
-              <textarea name="message" className="bg-[#18191E] border border-[#33353F] text-gray-100 text-sm rounded-lg block mt-2 w-full p-2.5" required />
-              <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white mt-4 font-semibold py-2.5 px-5 rounded-lg w-full">Send</button>
+              <textarea name="message" className="bg-[#ffffff] border border-[#33353F] text-gray-100 text-sm rounded-lg block mt-2 w-full p-2.5" required />
+              <button type="submit" className="bg-gray-950 ring-2 ring-yellow-500 hover:bg-gray-800 text-white font-bold mt-4 py-2.5 px-5 rounded-lg w-full">Send</button>
               {isSubmitted ? (
             <div className="text-green-500 text-xl mb-4">Message sent successfully! Thank you for reaching out.</div>
           ) : null}

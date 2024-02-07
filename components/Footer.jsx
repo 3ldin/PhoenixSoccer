@@ -46,7 +46,7 @@ const Footer = () => {
 
       </div>
       <div className="text-center mt-8">
-        <p>&copy; 2024 Phoenix Soccer Club. All rights reserved.</p>
+        <p>&copy; 2020 Phoenix Soccer Club. All rights reserved.</p>
       </div>
     </footer>
   );

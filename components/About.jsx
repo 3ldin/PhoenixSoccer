@@ -4,7 +4,7 @@ const ApproachSection = () => {
   return (
     <section className="bg-sky-600 py-12 w-screen">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-8 text-decoration-line: underline decoration-yellow-400 ">Our Approach</h2>
+        <h2 className="text-4xl font-bold mb-8 text-yellow-500 ">Our Approach</h2>
         <div className="flex flex-col md:flex-row items-center justify-center ">
           <div className="md:w-1/2 md:pr-8">
             <p className="text-xl md:text-2xl lg:text-3xl px-2 md:mb-10">

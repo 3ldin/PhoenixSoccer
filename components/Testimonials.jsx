@@ -26,10 +26,10 @@ const Testimonials = ({ testimonials }) => {
       </div>
 
       <div className="container mx-auto text-center mt-8">
-        <p className="text-gray-700 text-lg mx-2">
+        <p className="text-black font-bold text-lg mx-2">
           Join us and be part of the positive experiences our soccer camp offers. Sign up today to give your child a memorable and enriching soccer journey!
         </p>
-        <Link href='https://www.hisawyer.com/phoenix-soccer-club/schedules'>
+        <Link href='https://www.hisawyer.com/phoenix-soccer-club/auth/log-in'>
               <button className=" mt-6 bg-red-500 ring-2 ring-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded drop-shadow-lg">
                 Register
               </button>

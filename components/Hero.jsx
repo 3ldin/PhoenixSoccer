@@ -32,7 +32,7 @@ const Hero = () => {
               </button>
               </Link>
 
-              <Link href='https://www.hisawyer.com/phoenix-soccer-club/schedules'>
+              <Link href='https://www.hisawyer.com/phoenix-soccer-club/auth/log-in'>
               <button className="bg-sky-600 ring-2 ring-sky-600 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded drop-shadow-lg">
                 Register
               </button>

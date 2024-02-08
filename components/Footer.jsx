@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between">
         <div className="md:w-1/4 mb-6 md:mb-0">
           <h3 className="text-xl font-semibold mb-4">Phoenix Soccer Club</h3>
-          <p>Brooklyn, NY</p>
+          <p>NYC Based</p>
           <p>Email: info@phoenixsoccer.club </p>
           <p>Phone: (347) 722-4353</p>
         </div>
@@ -26,7 +26,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/AboutPage" className="hover:text-gray-500 transition duration-300">
+              <a href="/About" className="hover:text-gray-500 transition duration-300">
                 About
               </a>
             </li>

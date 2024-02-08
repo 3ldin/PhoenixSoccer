@@ -11,7 +11,7 @@ import Image from 'next/image';
 const navLinks = [
     {
         title: "About",
-        path: '/AboutPage',
+        path: '/About',
     },
     {
         title: "Programs",
@@ -23,7 +23,7 @@ const navLinks = [
     },
     {
         title: "Log In | Register",
-        path: "https://www.hisawyer.com/phoenix-soccer-club/schedules",
+        path: "https://www.hisawyer.com/phoenix-soccer-club/auth/log-in",
     }
 ]
 
@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className='mobile-menu block md:hidden pr-3'>
                 
                     {!navbarOpen ? (
-                    <button onClick={() => setNavbarOpen(true)} className='flex items-center py-2  text-black hover:text-slate-500 hover:border-slate-500'>
+                    <button onClick={() => setNavbarOpen(true)} className='flex items-center py-2 text-black hover:text-slate-500 hover:border-slate-500'>
                       <CgMenu className='h-8 w-8'/>
                     </button>
                 ) : (

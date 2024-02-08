@@ -1,6 +1,6 @@
 import Navbar from '@/components/navbar'
 import Hero from '../components/Hero'
-import About from '../components/About'
+import About from '../components/Approach'
 import Footer from '../components/Footer'
 import Location from '../components/Location'
 import Testimonials from '../components/Testimonials'

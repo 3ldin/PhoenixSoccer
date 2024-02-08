@@ -30,7 +30,7 @@ export const ContactUs = () => {
         <div className="container mx-auto text-center mt-10 pb-4 bg-skt-600">
 
           <h2 className="text-3xl mb-8 pt-4 text-yellow-500 font-bold">Phoenix Soccer Club</h2>
-          <p>NYC Area - Brooklyn</p>
+          <p>NYC Based</p>
           <p>Email: info@phoenixsoccer.club </p>
           <p>Phone: (347) 722-4353</p>
           <p className="m-8">

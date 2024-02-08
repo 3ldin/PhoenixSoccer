@@ -4,7 +4,7 @@ import SawyerWidget from '@/components/SawyerWidget'
 
 const Example = () => {
   return (
-    <div><SawyerWidget /></div>
+    <div></div>
   )
 }
 

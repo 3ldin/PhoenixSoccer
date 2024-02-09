@@ -11,8 +11,8 @@ const Procedure = () => {
 
   return (
     <div>
-      <Navbar />
-    <div className="mx-auto mt-28 text-center bg-gradient-to-b from-sky-600 to-blue-950">
+      
+    <div className="mx-auto text-center ">
       <h1 className="mb-4  pt-14 text-6xl font-bold text-white drop-shadow-xl ">Procedures and Policies</h1>
       <section className="mt-6 p-4 items-center mx-auto">
         <h2 className="text-3xl font-bold my-4 text-yellow-500">Drop-in Policy</h2>
@@ -61,7 +61,7 @@ const Procedure = () => {
         </Link> 
       </section>
     </div>
-    <Footer />
+    
     </div>
   );
 };

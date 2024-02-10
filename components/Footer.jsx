@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FaInstagram, FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -10,6 +10,14 @@ const Footer = () => {
           <p>NYC Based</p>
           <p>Email: info@phoenixsoccer.club </p>
           <p>Phone: (347) 722-4353</p>
+          <div className="flex justify-center mt-4">
+            <a href="https://www.instagram.com/phoenixsoccer.club/" target="_blank" rel="noopener noreferrer" className="mr-4">
+              <FaInstagram className="text-4xl hover:text-gray-500 transition duration-300" />
+            </a>
+            <a href="https://www.facebook.com/Phoenixsoccer.club" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="text-4xl hover:text-gray-500 transition duration-300" />
+            </a>
+          </div>
         </div>
         <div className='md:w-1/4 mb-6 md:mb-0 mx-auto'>
           <img 
@@ -42,8 +50,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        
-
       </div>
       <div className="text-center mt-8">
         <p>&copy; 2020 Phoenix Soccer Club. All rights reserved.</p>

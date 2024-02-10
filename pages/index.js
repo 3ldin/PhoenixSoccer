@@ -19,9 +19,9 @@ export default function Home() {
       <div className='container w-full'>
       <Hero />
       <About />
-      <Location />
       <Gallery />
       <Testimonials testimonials={testimonialsData} />
+      <Location />
       <Footer />
       </div>
     </main>

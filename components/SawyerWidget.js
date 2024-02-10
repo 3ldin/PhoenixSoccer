@@ -1,25 +1,17 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react'; 
+function SawyerTool() 
+{ useEffect(() => { 
+   const script = document.createElement('script');
+   script.src = 'https://hisawyer.com/embed/MFVY8T3cLsvXEtBKduxmsWO6CUU6xqEY.js'; 
+   script.async = true; 
+   script.id = 'SA_MFVY8T3cLsvXEtBKduxmsWO6CUU6xqEY'; 
+   script.setAttribute('data-sawyertools', 'sawyertools'); 
+   script.type = 'application/javascript'; 
+   document.body.appendChild(script); 
+   
+   return () => { document.body.removeChild(script); }; }, []);
 
-const SawyerWidget = () => {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.type = 'application/javascript';
-    script.setAttribute('data-sawyertools', 'sawyertools');
-    script.async = true;
-    script.id = 'SA_MFVY8T3cLsvXEtBKduxmsWO6CUU6xqEY';
-    script.src = 'https://hisawyer.com/embed/MFVY8T3cLsvXEtBKduxmsWO6CUU6xqEY.js';
-    document.body.insertBefore(script, document.body.firstChild);
+   return ( <div> </div> ); }
 
-    // Cleanup function
-    return () => {
-      const scriptElement = document.getElementById('SA_MFVY8T3cLsvXEtBKduxmsWO6CUU6xqEY');
-      if (scriptElement) {
-        document.body.removeChild(scriptElement);
-      }
-    };
-  }, []);
 
-  return null;
-};
-
-export default SawyerWidget;
+export default SawyerTool;

@@ -6,26 +6,25 @@ const Gallery = () => {
     '/images/babies.jpg',
     '/images/use4.jpg',
     '/images/aanew2.jpeg',
-    '/images/use1.jpeg',
-    '/images/use2.jpeg',
-    '/images/use3.jpeg',
+    '/images/use1.JPEG',
+    '/images/use2.JPEG',
+    '/images/use3.JPEG',
     '/images/baby.jpg',
     '/images/use5.jpg',
     '/images/aanew1.jpg',
     '/images/fall1.jpg',
     '/images/aanew3.jpeg',
     '/images/group1.jpg',
-  
     '/images/group2.jpg',
     '/images/group3.jpg',
     '/images/group6.jpg',
-   '/images/run.jpg',
+    '/images/run.jpg',
     '/images/promo.jpg',
     '/images/smile.jpg',
   ];
 
   return (
-    <section className=' w-screen bg-gradient-to-b from-sky-600 to-yellow-400 '>
+    <section className='bg-sky-600 pt-10 w-screen'>
       <div className="w-screen py-4">
     
       <Carousel images={imageUrls} />

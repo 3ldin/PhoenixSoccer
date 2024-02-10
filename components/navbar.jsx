@@ -10,6 +10,10 @@ import Image from 'next/image';
 
 const navLinks = [
     {
+        title: "Home",
+        path: "/",
+    },
+    {
         title: "About",
         path: '/About',
     },
@@ -37,7 +41,7 @@ const Navbar = () => {
             
             <Link href={"/"} className='text-2xl md:text-4xl text-black font-bold'>
                <Image 
-                src="/images/phoenix4.png"
+                src="/images/newphoenix4.png"
                 alt='logo'
                 width={100}
                 height={100}

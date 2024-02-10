@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '@/components/navbar';
 import Footer from '../components/Footer';
 import Link from 'next/link';
+import Procedure from './Procedure';
 
 
 
@@ -19,20 +20,14 @@ const Programs = () => {
           src='images/group7.jpg'
           className='lg:mt-14 mt-8 lg:mx-auto max-h-[800px]'
         />
-    <section className='bg-white pb-6'>
+    <section className='bg-white '>
       <div className='grid grid-cols-1 lg:grid-cols-6 mt-8'>
         <div className='lg:col-span-2  text-center border-t-4 border-black'>
           <h1 className=' lg:mt-16 mt-4 lg:mb-16 text-4xl lg:text-5xl font-bold text-center drop-shadow-xl  text-yellow-500 '>Seasonal Classes</h1>
           <p className='text-center text-black text-xl mt-4 mx-4 lg:pt-8 lg:text-3xl mb-4'>The primary focus is to create a fun imaginative environment where athletes can focus on developing soccer skills. Classes are oriented around individual development through themed classes with athletes interests in mind.</p>
           <Link href='https://www.hisawyer.com/phoenix-soccer-club/schedules'>
-              <button className="bg-red-600 ring-2 ring-red-600 hover:bg-red-800 text-white font-bold py-2 px-4 rounded mr-4 drop-shadow-lg">
+              <button className="bg-red-600 ring-2 ring-red-600 hover:bg-red-800 text-white font-bold py-2 px-4 rounded drop-shadow-lg">
                 Schedule
-              </button>
-              </Link>
-
-              <Link href='/Procedure'>
-              <button className="bg-sky-600 ring-2 ring-sky-600 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded drop-shadow-lg">
-                Learn More
               </button>
               </Link>
 
@@ -48,16 +43,12 @@ const Programs = () => {
           <h1 className=' lg:mt-16 mt-4 lg:mb-16 text-4xl lg:text-5xl font-bold text-center drop-shadow-xl text-yellow-500 '>Camps</h1>
           <p className='text-center text-xl mt-4 mx-4 lg:pt-8 lg:text-3xl mb-4 text-black'>Phoenix Soccer Camps are designed to provide the best that there is to offer in terms of development, creativity and fun. Camps are 3 hours of soccer and activities for children ages 3-5yrs. Younger children are exposed to soccer while developing their individual skills. Our coaches are highly experienced and thrilled to share their knowledge and love of the game with your children.</p>
           <Link href='https://www.hisawyer.com/phoenix-soccer-club/schedules?schedule_id=camps'>
-              <button className="bg-red-600 ring-2 ring-red-600 hover:bg-red-800 text-white font-bold py-2 px-4 rounded mr-4 drop-shadow-lg">
+              <button className="bg-red-600 ring-2 ring-red-600 hover:bg-red-800 text-white font-bold py-2 px-4 rounded drop-shadow-lg">
                 Schedule
               </button>
               </Link>
 
-              <Link href='/Procedure'>
-              <button className="bg-sky-600 ring-2 ring-sky-600 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded drop-shadow-lg">
-                Learn More
-              </button>
-              </Link>
+
         <img 
         className='mx-auto mt-6 '        
         src='images/cropbaby1.jpg'
@@ -97,7 +88,7 @@ const Programs = () => {
             </a>
           </Link>
         </div>
-       
+       <Procedure />   
       </div>
       </section> 
     </div>

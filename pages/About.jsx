@@ -54,9 +54,7 @@ const AboutPage = () => {
           <h2 className='text-2xl font-semibold my-2 drop-shadow-xl text-yellow-500'>Coach Emir</h2>
           <h3 className='text-xl mx-6 mb-6  '>"I love the sport of football, from all aspects imaginable but none more so than the technical. The brilliance that is exhibited by players by not just using their well trained and developed muscles but from using their intellect in combination with those honed muscles. As a college player and active league player, I hope to bring that same passion and technically outlook to Phoenix Soccer Club. Over the past decade I’ve been coaching children from various ages, crafting my own skill when it comes to teaching, I’ve worked with various clubs through NYC and helped friends bring their own clubs to the successful level they are now. I aim to the same here."</h3>
         </div>
-          <div className='lg:col-span-4'>
-          <Procedure />
-          </div>
+
 
 
         </div>

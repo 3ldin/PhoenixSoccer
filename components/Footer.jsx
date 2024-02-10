@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className='md:w-1/4 mb-6 md:mb-0 mx-auto'>
           <img 
-          src='/images/phoenix4.png'
+          src='/images/newphoenix4.png'
           width={345}
           />
         </div>

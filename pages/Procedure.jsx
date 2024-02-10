@@ -10,7 +10,7 @@ import SawyerWidget from '../components/SawyerWidget';
 const Procedure = () => {
 
   return (
-    <div>
+    <div className='bg-gradient-to-b from-sky-600 to-blue-800 lg:col-span-6 mt-6 border-t-4 border-black'>
       
     <div className="mx-auto text-center ">
       <h1 className="mb-4  pt-14 text-6xl font-bold text-white drop-shadow-xl ">Procedures and Policies</h1>

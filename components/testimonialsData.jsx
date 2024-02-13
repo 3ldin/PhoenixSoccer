@@ -6,6 +6,7 @@ const testimonialsData = [
     {quote: "EMIR AND TEAM WERE GREAT AT ENGAGING EVERYONE AND MAKING THE CLASS FUN WHILE TEACHING BASIC SOCCER SKILLS.", author: "Greg R | Blue Jay Classes"},
     {quote: "THE INSTRUCTORS WERE WONDERFUL MY 3 YEAR OLD HAD SUCH A GOOD TIME!! WE WILL BE BACK", author: "Paula R | Blue Jay Classes"},
   ];
+
   
   export default testimonialsData;
   

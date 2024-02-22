@@ -40,11 +40,11 @@ export const ContactUs = () => {
           <form ref={form} onSubmit={sendEmail} className="flex flex-col">
             <div className="mb-16 text-white block text-sm font-medium">
               <label className="mb-6">Name</label>
-              <input type="text" name="user_name" className="bg-[#ffffff] border border-[#33353F] text-gray-100 text-sm rounded-lg block my-2 w-full p-2.5" required />
+              <input type="text" name="user_name" className="bg-[#ffffff] border border-[#33353F] text-black text-sm rounded-lg block my-2 w-full p-2.5" required />
               <label>Email</label>
-              <input type="email" name="user_email" className="bg-[#ffffff] border border-[#33353F] text-gray-100 text-sm rounded-lg my-2 block w-full p-2.5" required />
+              <input type="email" name="user_email" className="bg-[#ffffff] border border-[#33353F] text-black text-sm rounded-lg my-2 block w-full p-2.5" required />
               <label>Message</label>
-              <textarea name="message" className="bg-[#ffffff] border border-[#33353F] text-gray-100 text-sm rounded-lg block mt-2 w-full p-2.5" required />
+              <textarea name="message" className="bg-[#ffffff] border border-[#33353F] text-black text-sm rounded-lg block mt-2 w-full p-2.5" required />
               <button type="submit" className="bg-gray-950 ring-2 ring-yellow-500 hover:bg-gray-800 text-white font-bold mt-4 py-2.5 px-5 rounded-lg w-full">Send</button>
               {isSubmitted ? (
             <div className="text-green-500 text-xl mb-4">Message sent successfully! Thank you for reaching out.</div>
